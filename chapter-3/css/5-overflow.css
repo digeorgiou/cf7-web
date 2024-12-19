@@ -1,0 +1,14 @@
+p {
+    width:100px;
+    height: 100px;
+    border:1px solid black;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* με το visible . το κειμενο μου θα φαιενται εξω απο το κουτι
+με το hidden. δεν θα φαινεται το κειμενο που περισσευει.
+με το scroll , εμφανιζεται scroll bar.
+με το auto : παλι εμφανιζεται scroll bar, αλλα μονο αν χρειαστει. */

@@ -1,0 +1,19 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:red;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+p {
+    border: 1px solid green;
+    text-align: initial;
+}
+
+/* καποιοι κανονες κληρονομουνται. οπως πχ. το coloor
+και το font-family, font-size.container
+αλλοι δεν κληρονομουνται , οπως το border και το
+text-align
+μπορω να ελεγξω τι κληρονομειται και τι οχι
+στο mozzila development (mdn) --> guides --> html */

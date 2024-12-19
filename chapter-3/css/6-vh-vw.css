@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* για να μην αφηνει κενο εξω απο το 
+border του header */
+
+
+.header {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.aueb-img > img {
+    height: calc(95vh - 200px);
+    width: auto;
+}
+/* το vh ειναι το υψος του viewport.
+περιλαμβανει και το addressbar.
+το calc ειναι μεθοδος του css. υπολογιζει
+το 95% του vh και αφαιρει 200px που ειναι το header. 
+*/
+
+/*το vw ειναι το πλατος του viewport */
+
+/* στην κλαση που ειναι aueb-img στους απογονους
+της που ειναι image κανε αυτο. */
+

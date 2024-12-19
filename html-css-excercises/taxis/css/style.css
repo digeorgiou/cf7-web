@@ -1,0 +1,29 @@
+:root {
+    --color-light : rgb(213, 211, 211);
+    --color-white: #fff;
+    --min-height-85vh:85vh;
+    --min-height-80px:80px;
+    --min-height-60px:60px;
+    --color-bluelight: #3176B1;
+    --color-blueauth:#5479A2;
+    --color-gray: rgb(205,202,202,0.5);
+    --color-bluelink: rgb(42,100,163);
+    --font-wight600:600;
+    --full-width:45vw;
+
+}
+
+.full-width {
+    width: var(--full-width);
+}
+
+.min-height80 {
+    min-height: var(--min-height-80px);
+}
+
+.dflex-sb-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

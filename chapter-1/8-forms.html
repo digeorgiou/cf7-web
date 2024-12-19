@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <div>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Άντρας</label>
+            <input type="radio" id="female" value="female" name="gender" checked>
+            <label for="female">Γυναίκα</label>
+        </div>
+        <!-- χρησιμοποιω το type radio , οταν θελω να ισχυει μονο μια απο καποιες επιλογες, να μην μπορει να τις επιλεξει ολες
+        πχ αντρας/γυναικα. 
+        δηλωνοντας το value εξηγω στον server που θα στειλω, τι ακριβως του στελνω.
+        επισης βαζω το ιδιο name για να δηλωσω οτι μονο μια απο τις επιλογες με το ιδιο name μπορει να ισχυει.
+        αν βαλω διαφορετικο name θα μπορει να τα επιλεξει και τα δυο
+        βαζοντας το attribute checked, επιλεγω να ειναι επιλεγμενη η συγκεκριμενη επιλογη οταν ανοιγει η σελιδα-->
+        <div>
+            <input type="checkbox" value="bike" id="bicycle">
+            <label for="bicycle"> Ποδήλατο</label>
+            <input type="checkbox" value="motorcycle" id="motorcycle">
+            <label for="motorcycle"> Μοτοσυκλέτα </label>
+            <input type="checkbox" value="car" id="car">
+            <label for="car"> Αυτοκίνητο </label>
+            <!-- εδω μπορει να τα επιλεξει ολα. με την μορφη checkbox. αν θελω παλι κατι να ειναι προεπιλεγμενο βαζω checked -->
+        </div>
+        <div>
+            <label for="nationality">Υπηκοότητα</label>
+            <select id="nationality">
+                <option value="" disabled selected hidden>Επιλέξτε Υπηκοότητα</option>
+                <option value="greek">Ελλάδα</option>
+                <option value="english">Αγγλία</option>
+                <option value="spanish">Ισπανία</option>
+            </select>
+            <!-- εδω φτιαχνουμε μια λιστα απ την οποια πρεπει να επιλεξει ο χρηστης. βαζω την επιλογη επιλεξτε υπηκοοτητα,
+            την κανω disabled για να μην μπορει να την επιλεξει. selected για να ειναι προεπιλεγμενη οταν ανοιγει η σελιδα και hidden για να μην εμφανιζεται στις επιλογες -->
+        </div>
+        <fieldset>
+            <legend>Προσωπικά Στοιχεία</legend>
+            <div>
+                <label for="firstname">Όνομα: </label>
+                <input type="text" id="firstname" placeholder="Εισάγετε όνομα" required>
+                <!-- βαζοντας required δηλωνω οτι το πεδιο αυτο ειναι υποχρεωτικο -->
+            </div>
+            <div>
+                <label for="lastname">Επίθετο: </label>
+                <input type="text" id="lastname" placeholder="Εισάγετε επίθετο" minlength="5" maxlength="10">
+                <!-- με minlength , maxlength βαζω ελαχιστο και μεγιστο αριθμο χαρακτηρων που πρεπει να εχει ενα input -->
+            </div>
+            <div>
+                <label for="workExperience">Χρόνια Προυπηρεσίας</label>
+                <input type="number" id="workExperience" min="3" max="10">
+            </div>
+        </fieldset>
+        <div>
+            <label for="birthday">Χρονολογία γέννησης</label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <input type="submit" value="Υποβολή">
+            <input type="reset" value="Επαναφορά">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    color:red
+}
+
+p, li {
+    color:blue;
+    background-color: aquamarine;
+}
+.aueb-logo {
+    width: 800px;
+    color: red;
+    background-color: brown;
+}
+img.aueb-logo{
+    height:auto;
+    border:2px solid yellow;
+}
+.aueb-text{
+    color:yellow;
+    background-color: black;
+}
+
+#auebText{
+    color:black;
+    background-color: yellow;
+}
+/* εδω εχει προτεραιοτητα το id σε σχεση με το class */
+
+/*καποια στοιχεια εχουν προτεραιοτητες, αν ειναι εντολες στο ιδιο στοιχειο. πχ στο <p>
+εφαρμοζονται με τη σειρα */
+
+ul > li {
+    color: orange
+}
+
+ul strong {
+    background-color: gray;
+}
+ul em {
+    background-color: red;
+}
+
+h1 + p {
+    background-color: orange;
+}
+
+a:visited{
+    color: red
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:focus {
+    outline: none;
+    background-color: green;
+}
+
+a:active{
+    background-color: chocolate;
+    color: white;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.first-div {
+    background-color: black;
+    width: 80%;
+    color: white
+}
+.second-div{
+    background-color: blue;
+    color: white;
+    width: 90%
+}
+.first-list{
+    background-color: aqua;}
+.container{
+    background-color: blue;
+}
+.second-par{
+    background-color: black;
+}

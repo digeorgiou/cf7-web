@@ -1,0 +1,48 @@
+.city{
+    width: 600px;
+    height: auto;
+}
+.img-rounded{
+    border-radius: 40px;
+}
+.img-circle{
+    border-radius: 50%;
+    width: 500px;
+    height:500px;
+}
+.thumbnail{
+    width: 150px;
+    height: auto;
+    border:2px double rgb(177,174,174)
+}
+.thumbnail:hover{
+    box-shadow:0px 0px 2px 2px rgb(55,186,230)
+}
+.card-image{
+    width:100%;
+    height:auto;
+    opacity:calc(0.5)
+}
+/* με το opacity την κανω πιο αχνη αν θελω */
+.card{
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+/* με το margin του λες ποσο χωρο να αφησει απο πανω κατω κτλ */
+.card-text {
+    text-align: center;
+}
+.london-bg {
+    height: 800px;
+    border:2px solid black;
+    background-image: url('../../images/london.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* με το background attachment fixed οταν κανω scroll down δεν μετακινειται η εικονα. ειναι σαν να ερχεται το πανω κομματι απο πανω της */

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="get"></form>
+    <!-- στο action του λεμε τον server στον οποιο θα στειλουμε τα στοιχεια της φορμας 
+    ενω το method τον τροπο με τον οποιο θα στειλουμε τα στοιχεια αυτα -->
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username">
+        </div>
+        
+    <!-- συνδεω το for και το input βαζοντας το ιδιο id. ετσι οταν κανω κλικ το label θα με παει αυτοματα στο input -->
+    <!-- το πεδιο name το συμπληρωνουμε για να αναγνωρισει ο server στον οποιο στελνουμε τα στοιχεια, τι ειναι αυτο που στελνουμε -->
+        <div>
+            <label for="email"> Email: </label>
+            <input type = "email" id ="email" name = "email">
+        </div>
+        <div>
+            <label for="message">Message: </label>
+            <textarea id="message" cols ="20" rows="10"></textarea>
+        </div>
+<!-- στις φορμες δεν θελουμε να αλλαζουμε γραμμες με <br> 
+γι αυτο τα χωρισουμε με div . το div ομαδοποιει τα στοιχεια και επισης πιανει ολο το πλατος της σελιδας και το επομενο στοιχειο
+το βαζει απο κατω (display block.) -->
+</body>
+</html>

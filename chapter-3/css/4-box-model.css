@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* εδω οριζω πως οτι και να κανω με
+τα padding και τα margin δεν θα αλλαξει το 
+μεγεθος του container. */
+
+.container {
+    width:80%;
+    /* height: 500px; */
+    border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box1 {
+    width:300px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid red;
+    text-align: center;
+    padding: 20px 0px;
+    vertical-align: center;
+    line-height: 160px;
+    /*κατακορυφη στοιχιση */
+    /*αν δεν βαλω line height δεν 
+    θα παει ακριβως στο κεντρο 
+    γιατι υπαρχει το padding
+    εδω εχω 20px πανω και 20 κατω οποτε βαζω το
+    line height 200px - 20 - 20 = 160px */
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin:0 auto; */
+}
+/* με το padding οριζω το περιθωριο εσωτερικα
+γυρω απο το content μου */
+
+/*με το margin οριζω περιθωριο εξωτερικα γυρω 
+απο το content μου */
+
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-color: beige;
+    border: 1px solid green;
+    text-align: center;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* εχω βαλει στο πανω κουτι margin bottom 20px
+και στο κατω κουτι margin 30px. εδω κραταει το
+μεγαλυτερο. δεν τα προσθετει να αφησει συνολικα 50px */

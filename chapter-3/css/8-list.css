@@ -1,0 +1,55 @@
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.aueb-img {
+    width: 400px;
+    height: auto;
+}
+
+.nav {
+    display: inline-block;
+}
+/*παιρνω το div που κανονικα ειναι block και το κανω inline-block, ετσι ερχεται διπλα στην εικονα μου που ειναι επισης inline-block*/
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+/*τα li ειναι κανονικα block στοιχεια. αλλα τα κανω inline-block για να μπουν διπλα διπλα στη σειρα */
+
+.nav li:first-child {
+    margin-left: 30px;
+}
+
+.nav a {
+    background-color: aqua;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: green
+}
+
+/* στα inline στοιχεια . πχ link δεν μπορω να εφαρμοσω
+width και height.
+
+margin και padding οριζοντιο δεν γινεται
+
+margin και padding καθετο γινεται, αλλα
+δεν κανει push τα διπλανα στοιχεια οπως κανουν τα block elements. τα inline στοιχεια κανουν overlap με τα διπλανα στοιχεια. */
+
+/* inline-block στοιχεια.
+μπορουν να ειναι το ενα διπλα στο αλλο.
+παιρνουν width και height
+παιρνουν margin και padding.
+*/
+

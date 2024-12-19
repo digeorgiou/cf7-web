@@ -1,0 +1,37 @@
+.container {
+   display: flex;
+   height: 200px;
+   border: 1px solid black; 
+   /* justify-content: space-around; 
+   μοιραζει τον χωρο γυρω απο τα στοιχεια
+   τα στοιχεια μεταξυ τους απεχουν 2 φορεσ οσο τα ακρειανα
+   στοιχεια απο το border*/
+   /* justify-content: space-between; 
+   τα δυο ακρειανα τα κολλαει αριστερα και δεξια 
+   και τον υπολοιπο χωρο τον μοιραζει αναμεσα.*/
+   justify-content: space-evenly;
+   /* τα στοιχεια απεχουν το ιδιο και απο τα border και μεταξυ τους */
+
+
+   /* align-items: center; */
+   /* align-items: start; */
+   align-items: end;
+
+   /* εδω τα στοιχιζει και καθετα. κεντρο, πανω και κατω. πρεπει να εχω δωσει height. */
+
+   /* τα justify-content και align-items λειτουργουν μονο αν εχω κανει display: flex */
+}
+
+/* με το display flex. τα block στοιχεια 
+γινονται in line.
+το ιδιο το container ομως παραμενει block.
+*/
+
+/* βλεπω οτι γυρω απο το border του div 
+εχει λιγο κενο. αυτο ειναι επειδη 
+by default το div εχει ενα μικρο margin.
+μπορω να το αλλαξω * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Ενας απλος πινακας</h1>
+    <table>
+        <tr>
+            <td>Μαθημα</td>
+            <td>Καθηγητης</td>
+            <td>Μερα</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>Θανασης</td>
+            <td>Δευτερα</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Καπετης</td>
+            <td>Τεταρτη</td>
+        </tr>
+    </table>
+    <h1>Thead, Tbody, Tfooter</h1>
+    <table>
+        <caption>Ωρολογιο Προγραμμα</caption>
+        <thead>
+            <tr>
+                <th>Μαθημα</th>
+                <th>Καθηγητης</th>
+                <th>Μερα</th>
+        </thead>
+        <tbody>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Θανασης</td>
+                <td>Δευτερα</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Καπετης</td>
+                <td>Τεταρτη</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot>
+            <tr>
+                <td>column1</td>
+                <td>column2</td>
+                <td>column3</td>
+            </tr>
+        </tfoot> -->
+        <tfoot>
+            <tr>
+                <td colspan="3">Coding Factory</td> 
+                <!-- Ενοποιω γραμμες με το colspan -->
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Μαθημα</th>
+                <th>Καθηγητης</th>
+                <th>Μερα</th>
+        </thead>
+        <tbody>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>Θανασης</td>
+                <td>Δευτερα</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Καπετης</td>
+                <td rowspan="2">Τεταρτη</td>
+                <!-- επεκτεινω ποσο χωρο πιανει μια στηλη -->
+            </tr>
+            <tr>
+                <td>Web</td>
+                <td>Μαρκος Παναγιωτης</td>
+            </tr>
+        </tbody>
+        </table>
+
+<!-- για πιο γρηγορα γραφω table>tr*3>td*2 και βγαζει κατευθειαν τον πινακα και συμπληρωνω απλως τα δεδομενα -->
+</body>
+</html>

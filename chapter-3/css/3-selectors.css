@@ -1,0 +1,25 @@
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+/* βρες ολα τα h2 και ολα τα p που εχουν attribute id */
+
+a[href="#"] {
+    background-color: blueviolet;
+}
+/* βρισκει ενα συγκεκριμενο link */
+
+/* symbol ^ starts with "info"  με το * παιρνει 
+ολα τα class*/
+*[class^="info"]{
+    color: green   
+}
+
+/* symbol * contains "text" */
+*[class*="text"] {
+    background-color: burlywood;
+}
+
+/* symbol $ ends with title */
+h2[class$="title"]{
+    font-style: italic;
+}

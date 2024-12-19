@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-deep-blue {
+    background-color: #003375;
+}
+
+header {
+    border-bottom: 10px solid #0067b4;
+}
+
+main {
+    border-bottom: 4px solid #0067b4;
+}
+
+.fb-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+header h2 {
+    color:white;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+}
+
+hr {
+    border: 1px solid #c9c9c9;
+    width: 100vh
+}
+.button {
+    background-color: #006738;
+    padding: 1rem;
+    color: white;  
+}
+.button a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
